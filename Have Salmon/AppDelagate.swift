@@ -1,18 +1,18 @@
-//
-//  AppDelagate.swift
-//  Have Salmon
-//
-//  Created by Skyler Hall on 6/26/24.
-//
-
 import SwiftUI
+import FirebaseCore
+import FirebaseMessaging
+import UserNotifications
 
-struct AppDelagate: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+class AppDelegate: NSObject, UIApplicationDelegate, MessagingDelegate, UNUserNotificationCenterDelegate{
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        
+        return true
     }
+    
+    
+
 }
 
-#Preview {
-    AppDelagate()
-}

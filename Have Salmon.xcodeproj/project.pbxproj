@@ -11,6 +11,23 @@
 		7F308D9B2C2C667B00E182F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308D9A2C2C667B00E182F3 /* ContentView.swift */; };
 		7F308D9D2C2C667D00E182F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F308D9C2C2C667D00E182F3 /* Assets.xcassets */; };
 		7F308DA02C2C667D00E182F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F308D9F2C2C667D00E182F3 /* Preview Assets.xcassets */; };
+		7F308DA72C2C66BF00E182F3 /* PatchNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DA62C2C66BF00E182F3 /* PatchNotes.swift */; };
+		7F308DAB2C2C67E600E182F3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DAA2C2C67E600E182F3 /* Home.swift */; };
+		7F308DAF2C2C690A00E182F3 /* patch notes sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F308DAE2C2C690A00E182F3 /* patch notes sprite.png */; };
+		7F308DB32C2C74BB00E182F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F308DB22C2C74BB00E182F3 /* GoogleService-Info.plist */; };
+		7F308DB62C2C75B600E182F3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7F308DB52C2C75B600E182F3 /* FirebaseDatabase */; };
+		7F308DB82C2C75B600E182F3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7F308DB72C2C75B600E182F3 /* FirebaseFirestore */; };
+		7F308DBA2C2C75B600E182F3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7F308DB92C2C75B600E182F3 /* FirebaseMessaging */; };
+		7F308DBD2C2C760A00E182F3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7F308DBC2C2C760A00E182F3 /* FirebaseAuth */; };
+		7F308DBF2C2C761000E182F3 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 7F308DBE2C2C761000E182F3 /* FirebaseFunctions */; };
+		7F308DC12C2C761700E182F3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7F308DC02C2C761700E182F3 /* FirebaseStorage */; };
+		7F308DC32C2C774A00E182F3 /* AppDelagate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DC22C2C774A00E182F3 /* AppDelagate.swift */; };
+		7F308DC52C2C9C9500E182F3 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DC42C2C9C9500E182F3 /* Loading.swift */; };
+		7F308DC72C2CA51C00E182F3 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DC62C2CA51C00E182F3 /* iOSDevCenters+GIF.swift */; };
+		7F308DC92C2CBDA800E182F3 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DC82C2CBDA800E182F3 /* AboutUs.swift */; };
+		7F308DCB2C2CC09300E182F3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DCA2C2CC09300E182F3 /* Settings.swift */; };
+		7FD870222CBAC9B40084B75E /* WaitTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD870212CBAC9B40084B75E /* WaitTimes.swift */; };
+		7FD870242CBAF5A10084B75E /* Salmon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD870232CBAF5A10084B75E /* Salmon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,19 @@
 		7F308D9A2C2C667B00E182F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F308D9C2C2C667D00E182F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F308D9F2C2C667D00E182F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F308DA62C2C66BF00E182F3 /* PatchNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchNotes.swift; sourceTree = "<group>"; };
+		7F308DAA2C2C67E600E182F3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7F308DAE2C2C690A00E182F3 /* patch notes sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patch notes sprite.png"; sourceTree = SOURCE_ROOT; };
+		7F308DB22C2C74BB00E182F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F308DC22C2C774A00E182F3 /* AppDelagate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelagate.swift; sourceTree = "<group>"; };
+		7F308DC42C2C9C9500E182F3 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		7F308DC62C2CA51C00E182F3 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		7F308DC82C2CBDA800E182F3 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		7F308DCA2C2CC09300E182F3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		7F308DCC2C2DE2D400E182F3 /* Have-Salmon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Have-Salmon-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7F308DCD2C2DE38800E182F3 /* Have Salmon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Have Salmon.entitlements"; sourceTree = "<group>"; };
+		7FD870212CBAC9B40084B75E /* WaitTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitTimes.swift; sourceTree = "<group>"; };
+		7FD870232CBAF5A10084B75E /* Salmon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salmon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +56,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F308DBA2C2C75B600E182F3 /* FirebaseMessaging in Frameworks */,
+				7F308DB62C2C75B600E182F3 /* FirebaseDatabase in Frameworks */,
+				7F308DBF2C2C761000E182F3 /* FirebaseFunctions in Frameworks */,
+				7F308DB82C2C75B600E182F3 /* FirebaseFirestore in Frameworks */,
+				7F308DBD2C2C760A00E182F3 /* FirebaseAuth in Frameworks */,
+				7F308DC12C2C761700E182F3 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +73,7 @@
 			children = (
 				7F308D972C2C667B00E182F3 /* Have Salmon */,
 				7F308D962C2C667B00E182F3 /* Products */,
+				7F308DBB2C2C760300E182F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +88,22 @@
 		7F308D972C2C667B00E182F3 /* Have Salmon */ = {
 			isa = PBXGroup;
 			children = (
+				7F308DCD2C2DE38800E182F3 /* Have Salmon.entitlements */,
+				7F308DCC2C2DE2D400E182F3 /* Have-Salmon-Info.plist */,
 				7F308D982C2C667B00E182F3 /* Have_SalmonApp.swift */,
 				7F308D9A2C2C667B00E182F3 /* ContentView.swift */,
+				7F308DB22C2C74BB00E182F3 /* GoogleService-Info.plist */,
+				7F308DC82C2CBDA800E182F3 /* AboutUs.swift */,
+				7F308DCA2C2CC09300E182F3 /* Settings.swift */,
+				7F308DC22C2C774A00E182F3 /* AppDelagate.swift */,
+				7F308DA62C2C66BF00E182F3 /* PatchNotes.swift */,
+				7F308DAA2C2C67E600E182F3 /* Home.swift */,
+				7FD870232CBAF5A10084B75E /* Salmon.swift */,
+				7FD870212CBAC9B40084B75E /* WaitTimes.swift */,
 				7F308D9C2C2C667D00E182F3 /* Assets.xcassets */,
+				7F308DC62C2CA51C00E182F3 /* iOSDevCenters+GIF.swift */,
+				7F308DC42C2C9C9500E182F3 /* Loading.swift */,
+				7F308DAE2C2C690A00E182F3 /* patch notes sprite.png */,
 				7F308D9E2C2C667D00E182F3 /* Preview Content */,
 			);
 			path = "Have Salmon";
@@ -65,6 +115,13 @@
 				7F308D9F2C2C667D00E182F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F308DBB2C2C760300E182F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,14 @@
 			dependencies = (
 			);
 			name = "Have Salmon";
+			packageProductDependencies = (
+				7F308DB52C2C75B600E182F3 /* FirebaseDatabase */,
+				7F308DB72C2C75B600E182F3 /* FirebaseFirestore */,
+				7F308DB92C2C75B600E182F3 /* FirebaseMessaging */,
+				7F308DBC2C2C760A00E182F3 /* FirebaseAuth */,
+				7F308DBE2C2C761000E182F3 /* FirebaseFunctions */,
+				7F308DC02C2C761700E182F3 /* FirebaseStorage */,
+			);
 			productName = "Have Salmon";
 			productReference = 7F308D952C2C667B00E182F3 /* Have Salmon.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 7F308D8C2C2C667B00E182F3;
+			packageReferences = (
+				7F308DB42C2C75B600E182F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7F308D962C2C667B00E182F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +194,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F308DA02C2C667D00E182F3 /* Preview Assets.xcassets in Resources */,
+				7F308DAF2C2C690A00E182F3 /* patch notes sprite.png in Resources */,
+				7F308DB32C2C74BB00E182F3 /* GoogleService-Info.plist in Resources */,
 				7F308D9D2C2C667D00E182F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD870242CBAF5A10084B75E /* Salmon.swift in Sources */,
 				7F308D9B2C2C667B00E182F3 /* ContentView.swift in Sources */,
+				7F308DA72C2C66BF00E182F3 /* PatchNotes.swift in Sources */,
+				7F308DAB2C2C67E600E182F3 /* Home.swift in Sources */,
+				7FD870222CBAC9B40084B75E /* WaitTimes.swift in Sources */,
+				7F308DC92C2CBDA800E182F3 /* AboutUs.swift in Sources */,
+				7F308DC72C2CA51C00E182F3 /* iOSDevCenters+GIF.swift in Sources */,
 				7F308D992C2C667B00E182F3 /* Have_SalmonApp.swift in Sources */,
+				7F308DCB2C2CC09300E182F3 /* Settings.swift in Sources */,
+				7F308DC52C2C9C9500E182F3 /* Loading.swift in Sources */,
+				7F308DC32C2C774A00E182F3 /* AppDelagate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,16 +348,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Have Salmon/Have Salmon.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Have Salmon/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LA4Z52TQX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Have-Salmon-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Have Salmon?";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,16 +380,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Have Salmon/Have Salmon.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Have Salmon/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LA4Z52TQX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Have-Salmon-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Have Salmon?";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +429,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F308DB42C2C75B600E182F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F308DB52C2C75B600E182F3 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F308DB42C2C75B600E182F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7F308DB72C2C75B600E182F3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F308DB42C2C75B600E182F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7F308DB92C2C75B600E182F3 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F308DB42C2C75B600E182F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		7F308DBC2C2C760A00E182F3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F308DB42C2C75B600E182F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7F308DBE2C2C761000E182F3 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F308DB42C2C75B600E182F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		7F308DC02C2C761700E182F3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F308DB42C2C75B600E182F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F308D8D2C2C667B00E182F3 /* Project object */;
 }
