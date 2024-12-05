@@ -26,6 +26,7 @@
 		7F308DC72C2CA51C00E182F3 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DC62C2CA51C00E182F3 /* iOSDevCenters+GIF.swift */; };
 		7F308DC92C2CBDA800E182F3 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DC82C2CBDA800E182F3 /* AboutUs.swift */; };
 		7F308DCB2C2CC09300E182F3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308DCA2C2CC09300E182F3 /* Settings.swift */; };
+		7F6A1BEF2D01FEE4008DF6F1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7F6A1BEE2D01FEE4008DF6F1 /* .gitignore */; };
 		7FD870222CBAC9B40084B75E /* WaitTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD870212CBAC9B40084B75E /* WaitTimes.swift */; };
 		7FD870242CBAF5A10084B75E /* Salmon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD870232CBAF5A10084B75E /* Salmon.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		7F308DCA2C2CC09300E182F3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		7F308DCC2C2DE2D400E182F3 /* Have-Salmon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Have-Salmon-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7F308DCD2C2DE38800E182F3 /* Have Salmon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Have Salmon.entitlements"; sourceTree = "<group>"; };
+		7F6A1BEE2D01FEE4008DF6F1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7FD870212CBAC9B40084B75E /* WaitTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitTimes.swift; sourceTree = "<group>"; };
 		7FD870232CBAF5A10084B75E /* Salmon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salmon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +99,7 @@
 				7F308DCA2C2CC09300E182F3 /* Settings.swift */,
 				7F308DC22C2C774A00E182F3 /* AppDelagate.swift */,
 				7F308DA62C2C66BF00E182F3 /* PatchNotes.swift */,
+				7F6A1BEE2D01FEE4008DF6F1 /* .gitignore */,
 				7F308DAA2C2C67E600E182F3 /* Home.swift */,
 				7FD870232CBAF5A10084B75E /* Salmon.swift */,
 				7FD870212CBAC9B40084B75E /* WaitTimes.swift */,
@@ -193,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F6A1BEF2D01FEE4008DF6F1 /* .gitignore in Resources */,
 				7F308DA02C2C667D00E182F3 /* Preview Assets.xcassets in Resources */,
 				7F308DAF2C2C690A00E182F3 /* patch notes sprite.png in Resources */,
 				7F308DB32C2C74BB00E182F3 /* GoogleService-Info.plist in Resources */,
